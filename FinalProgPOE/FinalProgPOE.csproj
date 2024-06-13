@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AESTHETICS PAPER.jpg" />
+    <None Remove="Chicken and Cauliflower.jpg" />
+    <None Remove="Chicken Shawarma.jpg" />
+    <None Remove="Dark Green Solid.jpg" />
+    <None Remove="download.jpg" />
+    <None Remove="Easy Orange Chicken Recipe.jpg" />
+    <None Remove="Garlic Chicken and Zucchini.jpg" />
+    <None Remove="green.jpg" />
+    <None Remove="Korean Fried Chicken Recipe - Copy.jpg" />
+    <None Remove="Pot Chicken and Vegetables.jpg" />
+    <None Remove="Roast Chicken.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="AESTHETICS PAPER.jpg" />
+    <Resource Include="Chicken and Cauliflower.jpg" />
+    <Resource Include="Chicken Shawarma.jpg" />
+    <Resource Include="Dark Green Solid.jpg" />
+    <Resource Include="download.jpg" />
+    <Resource Include="Easy Orange Chicken Recipe.jpg" />
+    <Resource Include="Garlic Chicken and Zucchini.jpg" />
+    <Resource Include="green.jpg" />
+    <Resource Include="Korean Fried Chicken Recipe - Copy.jpg" />
+    <Resource Include="Pot Chicken and Vegetables.jpg" />
+    <Resource Include="Roast Chicken.jpg" />
+  </ItemGroup>
+
+</Project>
